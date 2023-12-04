@@ -8,36 +8,46 @@ Welcome to my dynamic portfolio built with React and GSAP! This project is a sho
 
 ## Table of Contents
 
-- [Installation and Using](#Installation_and_Using)
+- [Installation](#Installation)
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation and Using
+## Installation
 
 Provide step-by-step instructions on how to install and run your project.
 
 1. ***Clone the repository***
+
 ```bash
 git clone https://github.com/khaimed/MyOfficial-Portfolio.git
 ```
 
 2. ***Navigate to the project directory***
+   
 ```bash
 cd MyOfficial-Portfolio
 ```
 
 3. ***Install dependencies***
+   
 ```bash
 npm install
 ```
+## Using
 
-4. ***Run the application***
+To view the portfolio, You only have one step :
+
+***Run the application***
 ```bash
 npm start
 ```
+
+This will start the development server, and you can view the portfolio at http://localhost:3000 in your web browser.
+
+Explore and enjoy the dynamic design and interactive features of my portfolio!
 
 ## Features
 
