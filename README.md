@@ -54,4 +54,4 @@ List key features of your project.
 Describe how others can contribute to your project. Include guidelines for code style and pull requests.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as per the terms of the license.
