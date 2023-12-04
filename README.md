@@ -8,32 +8,36 @@ Briefly describe your project here. What does it do? Why is it useful?
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Installation and Using](#Installation_and_Using)
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
+## Installation and Using
 
 Provide step-by-step instructions on how to install and run your project.
 
-### Clone the repository
+1. ***Clone the repository***
+```bash
 git clone https://github.com/khaimed/MyOfficial-Portfolio.git
+```
 
-### Navigate to the project directory
+2. ***Navigate to the project directory***
+```bash
 cd MyOfficial-Portfolio
+```
 
-### Install dependencies
+3. ***Install dependencies***
+```bash
 npm install
+```
 
-# Usage
-
-Explain how to use your project. Provide examples and screenshots if possible.
-
-# Run the application
+4. ***Run the application***
+```bash
 npm start
+```
 
 ## Features
 
