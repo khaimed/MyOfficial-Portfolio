@@ -1,0 +1,187 @@
+  /* Gradient definitions */
+  :root {
+    --bg1: #343a40;
+    --bg2: #252E33;
+  }
+
+  .menu-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    opacity: 0;
+    overflow: hidden;
+    z-index: 2;
+    transition: all .3s ease-in-out;
+  }
+  .menu-container.open{
+    top: 0;
+    opacity: 1;
+  }
+  
+  .row,
+  .column {
+    box-sizing: border-box;
+    display: flex;
+    transition: all 400ms ease-in-out;
+  }
+  
+  .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    height: 50%;
+  }
+  
+  .row.onHover {
+    height: 70%;
+  }
+  
+  .row.onHover > .column.onHover > div {
+    padding: 14px 24px 24px 24px;
+    font-size: 24px;
+  }
+  
+  .row.offHover {
+    height: 30%;
+  }
+  
+  .row.active {
+    height: 100%;
+  }
+  
+  .row.active > .column.show > .ct {
+    bottom: 0px;
+    height: 80px;
+    width: 80px;
+    background: transparent;
+  }
+  
+  .row.off {
+    height: 0%;
+  }
+  
+  .column {
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .column.onHover {
+    flex-basis: 60%;
+  }
+  
+  .column.offHover {
+    flex-basis: 40%;
+  }
+  
+  .column.show {
+    flex-basis: 100%;
+  }
+  
+  .column.hide {
+    flex-basis: 0%;
+  }
+  
+  .column.bg1,.column.bg2,.column.bg3,.column.bg4 {
+    background: var(--background-color-primary);
+  }
+  
+  .ct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 200ms ease-out;
+    padding: 24px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .ct label{
+    color: var(--primary-color);
+  }
+  .row.active .column.show .ct label{
+    display: none;
+  }
+  .row.active .ct span{
+    opacity: 0;
+  }
+  .row.active .column.show .ct span{
+    position: absolute;
+    opacity: 1;
+    width: 0px;
+    height: 10px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    transition: all .5s ease-in-out;
+  }
+  .row.active .column.show .ct span:after{
+    content:"";
+    position: absolute;
+    bottom: 10px;
+    rotate: -35deg;
+    width: 24px;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 2px;
+  }
+  .row.active .column.show .ct span:before{
+    content:"";
+    position: absolute;
+    top: 10px;
+    rotate: 35deg;
+    width: 24px;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 2px;
+  }
+  .row.active .ct{
+    align-items: flex-start;
+  }
+
+  .bg1.show .ct label,.bg2.show .ct label,.bg3.show .ct label,.bg4.show .ct label{
+    display: none;
+  }
+
+  .common {
+    white-space: nowrap;
+    position: absolute;
+    background: var(--lcd4);
+    color: var(--lcd1);
+  }
+  
+  .colA,.colB,.colC,.colD{
+    position: absolute;
+    top: 0;
+  }
+  
+  .colA {
+    background: var(--bg2);
+    /* left: 0;
+    top: 0; */
+  }
+  
+  .colB {
+    background: var(--bg1);
+    /* right: 0;
+    top: 0; */
+  }
+  
+  .colC {
+    background: var(--bg1);
+    /* left: 0;
+    bottom: 0; */
+  }
+  
+  .colD {
+    background: var(--bg2);
+    /* right: 0;
+    bottom: 0; */
+  }
+  

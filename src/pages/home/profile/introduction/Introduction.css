@@ -1,0 +1,24 @@
+.logo-container{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,40vh) scale(4);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 50px;
+    margin-top: 1em;
+}
+.logo-color{
+    fill:var(--primary-color);
+}
+.logo-text{
+    font-size: 2vw;
+    margin-top: .5em;
+    opacity: 1;
+    display: block;
+    color: var(--primary-color);
+}

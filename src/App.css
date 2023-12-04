@@ -1,0 +1,40 @@
+
+@import url("../node_modules/font-awesome/css/font-awesome.min.css");
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
+
+:root{
+    --primary-color : #1888c8;
+    --second-color : #2F6F94;
+    --third-color : #325061;
+    --fourth-color : #252E33;
+    --font-color : #093047;
+    --background-color-primary : #f7f7f7;
+    --background-color-second : #f9f9f9;
+    --background-color-third : #a1a1a1;
+    --background-circles : rgba(255, 255, 255, 0.2);
+}
+[data-theme="dark"]{
+    /* first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth */
+    --font-color : #def3ff;
+    --background-color-primary : #1a1a1a;
+    --background-color-second : #0a0a0a;
+    --background-color-third : #2e2e2e;
+    --background-circles : rgba(10, 10, 10, 0.2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    line-height: 1.5;
+    font-size:16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    background-color: var(--background-color-primary);
+    overflow: hidden;
+}
