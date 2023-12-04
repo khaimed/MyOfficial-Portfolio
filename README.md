@@ -19,16 +19,16 @@ Briefly describe your project here. What does it do? Why is it useful?
 
 Provide step-by-step instructions on how to install and run your project.
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/khaimed/MyOfficial-Portfolio.git
 
-# Navigate to the project directory
+### Navigate to the project directory
 cd MyOfficial-Portfolio
 
-# Install dependencies
+### Install dependencies
 npm install
 
-## Usage
+# Usage
 
 Explain how to use your project. Provide examples and screenshots if possible.
 
