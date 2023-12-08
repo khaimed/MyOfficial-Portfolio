@@ -1,8 +1,10 @@
 import "./Footer.css"
 
+const currentDate = new Date();
+
 function Footer() {
   return (
-    <div className="footer">2018 - 2023 © KhAiMed</div>
+    <div className="footer">2017 - { currentDate.getFullYear() } © KhAiMed</div>
   )
 }
 

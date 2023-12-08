@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Menu from "../menu/Menu"
+import Menu from "../../components/menu/Menu"
 import Profile from "./profile/Profile"
 import MenuButton from "../../components/menubutton/MenuButton";
 import DarkMode from "../../components/darkmode/DarkMode";
