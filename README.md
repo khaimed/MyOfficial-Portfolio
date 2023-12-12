@@ -79,6 +79,7 @@ A well-organized navigation system makes it easy for visitors to explore differe
 
 - React.js
 - React Router
+- GSAP
 
 ## Contributing
 Describe how others can contribute to your project. Include guidelines for code style and pull requests.
