@@ -78,9 +78,7 @@ A well-organized navigation system makes it easy for visitors to explore differe
 ## Technologies
 
 - React.js
-- Redux *(if applicable)*
-- React Router *(if applicable)*
-- Styled-components *(if applicable)*
+- React Router
 
 ## Contributing
 Describe how others can contribute to your project. Include guidelines for code style and pull requests.
